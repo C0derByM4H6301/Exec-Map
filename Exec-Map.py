@@ -25,6 +25,7 @@ if getuid() != 0:
     print("Examples:")
     print("root@kali:~# python3 a.py")
     print("kali@kal:~$ sudo python3 a.py")
+    exit()
 panel="""
 [1]: Nmap Scan
 [2]:
